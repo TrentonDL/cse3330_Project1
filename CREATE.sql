@@ -8,7 +8,7 @@ CREATE TABLE TRAIN
     DestinationStation  VARCHAR(30)     NOT NULL,
     
     PRIMARY KEY (TrainNumber),
-    UNIQUE (TrainName),
+    UNIQUE (TrainName)
 );
 
 CREATE TABLE DAYSAVAILABLE
@@ -27,7 +27,7 @@ CREATE TABLE BOOKED
     Ticket_Status       VARCHAR(15)     NOT NULL,
 
     PRIMARY KEY (SSN),
-    FOREIGN KEY (Train_Number) REFERENCES TRAIN (TrainName),
+    FOREIGN KEY (Train_Number) REFERENCES TRAIN (TrainName)
 );
 
 CREATE TABLE TRAIN_STATUS
@@ -39,7 +39,7 @@ CREATE TABLE TRAIN_STATUS
     PremSeatOccupied    INT             NOT NULL,
     GenSeatsOccupied    INT             NOT NULL,
 
-    PRIMARY KEY (Train_Name) REFERENCES TRAIN (TrainName),
+    PRIMARY KEY (Train_Name) REFERENCES TRAIN (TrainName)
 );
 
 CREATE TABLE PASSENGER
@@ -53,5 +53,5 @@ CREATE TABLE PASSENGER
     SSN                 CHAR(9)         NOT NULL,
     BDate               DATE            NOT NULL,
 
-    PRIMARY KEY (SSN) REFERENCES BOOKED (SSN),
+    PRIMARY KEY (SSN) REFERENCES BOOKED (SSN)
 );
