@@ -10,5 +10,11 @@
 
 ## Entity Relationship (ER) Diagram
 
-
 ## Tools
+
+Tools used in creationof this project include:
+
+* Lucidcharts
+* Visual Studio Code
+* SQLite 3
+* Ubuntu WSL (version 22.04.2)
