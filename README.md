@@ -21,6 +21,10 @@ Tools used in creationof this project include:
 * SQLite 3
 * Ubuntu WSL (version 22.04.2)
 
+## Method for Loading Tables
+
+    For this project, we first load into SQLite the tables for which we wish to organize the data, then using a series of insert satements we then insert the data indivually into the tables.
+
 ## Contribution List
 
 1. ER Diagram - Trenton Laule, Joel Guerra
@@ -30,3 +34,11 @@ Tools used in creationof this project include:
    3. Queries - Joel Guerra
 3. README.md file - Trenton Laule
 4. Testing - Trenton Laule, Joel Guerra
+
+## Honor Code
+
+I pledge, on my honor, to uphold UT Arlington's tradition of academic integrity, a tradition that values hard work and honest effort in the pursuit of academic excellence.
+
+
+
+I promise that I will submit only work that I personally create or that I contribute to group collaborations, and I will appropriately reference any work from other sources. I will follow the highest standards of integrity and uphold the spirit of the Honor Code.
