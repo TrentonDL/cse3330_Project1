@@ -10,6 +10,8 @@
 
 ## Entity Relationship (ER) Diagram
 
+<img src="image/ERDiagram.png" width="400" height="400"/>
+
 ## Tools
 
 Tools used in creationof this project include:
@@ -18,3 +20,13 @@ Tools used in creationof this project include:
 * Visual Studio Code
 * SQLite 3
 * Ubuntu WSL (version 22.04.2)
+
+## Contribution List
+
+1. ER Diagram - Trenton Laule, Joel Guerra
+2. SQL Code
+   1. Create Tables - Joel Guerra
+   2. Insert Data - Joel Guerra
+   3. Queries - Joel Guerra
+3. README.md file - Trenton Laule
+4. Testing - Trenton Laule, Joel Guerra
